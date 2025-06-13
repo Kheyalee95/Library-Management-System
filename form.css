@@ -1,0 +1,94 @@
+/* General Form Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: #3b5998;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+
+/* Form Container */
+.form-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Form Labels and Inputs */
+form label {
+    display: block;
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+    font-size: 1em;
+}
+
+form input[type="text"]:focus,
+form input[type="number"]:focus {
+    border-color: #3b5998;
+}
+
+/* Submit Button */
+form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #3b5998;
+    color: #ffffff;
+    font-size: 1.1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+form button:hover {
+    background-color: #2a4688;
+}
+
+/* Link Styling at Bottom */
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #3b5998;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.back-link:hover {
+    color: #2a4688;
+}
